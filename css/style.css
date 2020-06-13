@@ -489,13 +489,15 @@ body {
 .title {
   margin: 0;
   font-family: 'Yeseva One', cursive;
+  font-style: normal;
+  font-weight: normal;
   text-transform: uppercase;
   font-size: 2.857rem;
   line-height: 1.4; }
   .title--primary {
     color: #E3B873; }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   html {
     font-size: 12px; }
   .nav__item {
@@ -507,7 +509,11 @@ body {
   .hero__instagram {
     display: none; }
   .hero__content {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .hero__button {
+    max-height: 3.71rem; }
+  .hero__scroll-down {
+    margin-left: 0px; } }
 
 @media screen and (max-width: 570px) {
   .contacts__phone {
