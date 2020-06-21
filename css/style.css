@@ -338,10 +338,18 @@ template {
     background-color: transparent;
     color: #fff; }
 
+.label {
+  font-size: 1.07rem; }
+  .label--light {
+    color: rgba(255, 255, 255, 0.5); }
+
 .container {
-  width: 85%;
+  width: 88%;
   max-width: 1256px;
   margin: auto; }
+
+.col-30 {
+  flex-basis: 31%; }
 
 *, *:before, *:after {
   box-sizing: border-box; }
@@ -525,6 +533,8 @@ img {
 .card__title {
   font-family: Yeseva One, cursive;
   font-size: 1.29rem;
+  font-style: normal;
+  font-weight: normal;
   margin-top: 0;
   margin-bottom: 0.7rem; }
 
@@ -547,6 +557,15 @@ img {
   color: #fff;
   padding: 1.214rem 2.6rem; }
 
+.design__description {
+  display: inline-block;
+  max-width: 53rem;
+  font-family: 'Futura book';
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: none; }
+
 @media screen and (max-width: 1300px) {
   html {
     font-size: 12px; }
@@ -554,6 +573,15 @@ img {
     margin-right: 1rem; } }
 
 @media screen and (max-width: 992px) {
+  .row {
+    flex-direction: column;
+    align-items: center; }
+  .types__card {
+    margin-bottom: 5rem; }
+  .design__card {
+    margin-bottom: 5rem; }
+  .card__text {
+    margin-left: 0; }
   .nav {
     display: none; }
   .hero__instagram {
@@ -570,6 +598,8 @@ img {
     flex-direction: column;
     align-items: center; }
   .types__card {
+    margin-bottom: 5rem; }
+  .design__card {
     margin-bottom: 5rem; }
   .card__text {
     margin-left: 0; } }
